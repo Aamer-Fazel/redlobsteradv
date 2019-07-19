@@ -1,0 +1,358 @@
+#tell it to start
+print("Welcome to Red Lobster Aventure Game")
+#Ask for there name
+name = raw_input("What is your name?")
+#welcome them
+while True :
+	print("Alright " + name + ", Welcome to Red Lobster")
+	#ask for a decision
+	first = raw_input ("Will you like to make a reservation(type a) or just wait 10 minutes(type b)")
+	if first == "a":
+		print("You have made a reservation and they are ready for you now.")
+		print("They would like to know if you want biscuits.")
+		second = raw_input("Would you like biscuits(type a) or would you pass(type b)")
+		if second == "a":
+			print("Your biscuits have been deliver.")
+			print("They would like to know what you want for your beverage.")
+			third = raw_input("Would you like DrPepper(type a) or coke(type b)")
+			if third == "a":
+				print("Your DrPepper has been served.")
+				print("They would now like to know what you want for you main course.")
+				fourth = raw_input("Would you like crab(type a) or would you like shrimp(type b)")
+				if fourth == "a":
+					print("They acknowledge that you want crab.")
+					print("They are wondering what type of crab you would.")
+					fifth = raw_input("Would you like snow crab legs(type a) or would you like crab linguini alfredo(type b)")
+					if fifth == "a":
+						print("They are wondering what side you would like with your snow crab legs")
+						sixth = raw_input("Would you like grilled shrimp(type a) or would you like garden salad(type b)")
+						if sixth == "a":
+							print("Your crab comes along with the bill.")
+							seventh = raw_input("Would you like to tip them good(type a) or tip them bad(type b)")
+							if seventh == "a":
+								print("They are very greatful for your generosity.")
+								print("Ending 1")
+								break
+							elif seventh == "b":
+								print("They are not happy with your tip. They follow you to your car and stone you with stale biscuits.")
+								print("Ending 2")
+								break
+						elif sixth == "b":
+							print("Your crab comes along with the bill.")
+							seventh == raw_input("Would you like to tip them good(type a) or tip them bad(type b)")
+							if seventh == "a":
+								print("They are very greatful for your generosity.")
+								print("Ending 3")
+								break
+							elif seventh == "b":
+								print("They are not happy with your tip. They follow you to your car and stone you with stale biscuits.")
+								print("Ending 4")
+								break
+						elif fifth == "b":
+							print("They are wondering what side you would like with your crab linguini alfredo")
+							sixth = raw_input("Would you like grilled shrimp(type a) or would you like garden salad(type b)")
+				elif fourth == "b":
+					print("They acknowledge that you want shrimp.")
+					print("They are wondering the spice level you would like.")
+					eighth = raw_input("Would you like mild spice(type a) or would you like it very spicy(type b)")
+					if eighth == "a":
+						print("Your shrimp comes along with the bill.")
+						seventh = raw_input("Would you like to tip them good(type a) or tip them bad(type b)")
+					elif eighth == "b":
+						print("Your shrimp comes along with the bill.")
+						seventh = raw_input("Would you like to tip them good(type a) or tip them bad(type b)")
+			elif third == "b":
+				print("Your Coke has been served.")
+				print("They would now like to know what you want for you main course.")
+				fourth = raw_input("Would you like crab(type a) or would you like shrimp(type b)")
+				fifth = raw_input("Would you like snow crab legs(type a) or would you like crab linguini alfredo(type b)")
+				if fifth == "a":
+					print("They are wondering what side you would like with your snow crab legs")
+					sixth = raw_input("Would you like grilled shrimp(type a) or would you like garden salad(type b)")
+					if sixth == "a":
+						print("Your crab comes along with the bill.")
+						seventh = raw_input("Would you like to tip them good(type a) or tip them bad(type b)")
+						if seventh == "a":
+							print("They are very greatful for your generosity.")
+							print("Ending 1")
+							break
+						elif seventh == "b":
+							print("They are not happy with your tip. They follow you to your car and stone you with stale biscuits.")
+							print("Ending 2")
+							break
+					elif sixth == "b":
+						print("Your crab comes along with the bill.")
+						seventh == raw_input("Would you like to tip them good(type a) or tip them bad(type b)")
+						if seventh == "a":
+							print("They are very greatful for your generosity.")
+							print("Ending 3")
+							break
+				if fourth == "a":
+					print("They acknowledge that you want crab.")
+					print("They are wondering what type of crab you would.")
+					fifth = raw_input("Would you like snow crab legs(type a) or would you like crab linguini alfredo(type b)")
+					if fifth == "a":
+						print("They are wondering what side you would like with your snow crab legs")
+						sixth = raw_input("Would you like grilled shrimp(type a) or would you like garden salad(type b)")
+						if sixth == "a":
+							print("Your crab comes along with the bill.")
+							seventh = raw_input("Would you like to tip them good(type a) or tip them bad(type b)")
+							if seventh == "a":
+								print("They are very greatful for your generosity.")
+								print("Ending 1")
+								break
+							elif seventh == "b":
+								print("They are not happy with your tip. They follow you to your car and stone you with stale biscuits.")
+								print("Ending 2")
+								break
+						elif sixth == "b":
+							print("Your crab comes along with the bill.")
+							seventh == raw_input("Would you like to tip them good(type a) or tip them bad(type b)")
+							if seventh == "a":
+								print("They are very greatful for your generosity.")
+								print("Ending 3")
+
+				elif fourth == "b":
+					print("They acknowledge that you want shrimp.")
+					print("They are wondering the spice level you would like.")
+
+					eighth = raw_input("Would you like mild spice(type a) or would you like it very spicy(type b)")
+					if eighth == "a":
+						print("Your shrimp comes along with the bill.")
+						seventh = raw_input("Would you like to tip them good(type a) or tip them bad(type b)")
+					elif eighth == "b":
+						print("Your shrimp comes along with the bill.")
+						seventh = raw_input("Would you like to tip them good(type a) or tip them bad(type b)")
+						if seventh == "a":
+							print("They are very greatful for your generosity.")
+							print("Ending 5")
+							break
+						elif seventh == "b":
+							print("They are not happy with your tip. They follow you to your car and stone you with stale biscuits.")
+							print("Ending 6")
+			elif third == "b":
+				print("They would like to know what you want for your beverage.")
+				third = raw_input("Would you like DrPepper(type a) or coke(type b)")
+		elif second == "b":
+			print("They would like to know what you want for your beverage.")
+			third = raw_input("Would you like DrPepper(type a) or coke(type b)")
+			if third == "a":
+				print("Your DrPepper has been served.")
+				print("They would now like to know what you want for you main course.")
+				fourth = raw_input("Would you like crab(type a) or would you like shrimp(type b)")
+				if fourth == "a":
+					print("They acknowledge that you want crab.")
+					print("They are wondering what type of crab you would.")
+					fifth = raw_input("Would you like snow crab legs(type a) or would you like crab linguini alfredo(type b)")
+					if fifth == "a":
+						print("They are wondering what side you would like with your snow crab legs")
+						sixth = raw_input("Would you like grilled shrimp(type a) or would you like garden salad(type b)")
+						if sixth == "a":
+							print("Your crab comes along with the bill.")
+							seventh = raw_input("Would you like to tip them good(type a) or tip them bad(type b)")
+							if seventh == "a":
+								print("They are very greatful for your generosity.")
+								print("Ending 1")
+								break
+							elif seventh == "b":
+								print("They are not happy with your tip. They follow you to your car and stone you with stale biscuits.")
+								print("Ending 2")
+								break
+						elif sixth == "b":
+							print("Your crab comes along with the bill.")
+							seventh == raw_input("Would you like to tip them good(type a) or tip them bad(type b)")
+							if seventh == "a":
+								print("They are very greatful for your generosity.")
+								print("Ending 3")
+								break
+							elif seventh == "b":
+								print("They are not happy with your tip. They follow you to your car and stone you with stale biscuits.")
+								print("Ending 4")
+								break
+						elif fifth == "b":
+							print("They are wondering what side you would like with your crab linguini alfredo")
+							sixth = raw_input("Would you like grilled shrimp(type a) or would you like garden salad(type b)")
+				elif fourth == "b":
+					print("They acknowledge that you want shrimp.")
+					print("They are wondering the spice level you would like.")
+					eighth = raw_input("Would you like mild spice(type a) or would you like it very spicy(type b)")
+					if eighth == "a":
+						print("Your shrimp comes along with the bill.")
+						seventh = raw_input("Would you like to tip them good(type a) or tip them bad(type b)")
+					elif eighth == "b":
+						print("Your shrimp comes along with the bill.")
+						seventh = raw_input("Would you like to tip them good(type a) or bad(type b)")
+	elif first == "b":
+		print("You have waited your time and your table is ready.")
+		second = raw_input("Would you like biscuits(type a) or would you pass(type b)")
+		if second == "a":
+			print("Your biscuits have been deliver.")
+			print("They would like to know what you want for your beverage.")
+			third = raw_input("Would you like DrPepper(type a) or coke(type b)")
+			if third == "a":
+				print("Your DrPepper has been served.")
+				print("They would now like to know what you want for you main course.")
+				fourth = raw_input("Would you like crab(type a) or would you like shrimp(type b)")
+				if fourth == "a":
+					print("They acknowledge that you want crab.")
+					print("They are wondering what type of crab you would.")
+					fifth = raw_input("Would you like snow crab legs(type a) or would you like crab linguini alfredo(type b)")
+					if fifth == "a":
+						print("They are wondering what side you would like with your snow crab legs")
+						sixth = raw_input("Would you like grilled shrimp(type a) or would you like garden salad(type b)")
+						if sixth == "a":
+							print("Your crab comes along with the bill.")
+							seventh = raw_input("Would you like to tip them good(type a) or tip them bad(type b)")
+							if seventh == "a":
+								print("They are very greatful for your generosity.")
+								print("Ending 1")
+								break
+							elif seventh == "b":
+								print("They are not happy with your tip. They follow you to your car and stone you with stale biscuits.")
+								print("Ending 2")
+								break
+						elif sixth == "b":
+							print("Your crab comes along with the bill.")
+							seventh == raw_input("Would you like to tip them good(type a) or tip them bad(type b)")
+							if seventh == "a":
+								print("They are very greatful for your generosity.")
+								print("Ending 3")
+								break
+							elif seventh == "b":
+								print("They are not happy with your tip. They follow you to your car and stone you with stale biscuits.")
+								print("Ending 4")
+								break
+						elif fifth == "b":
+							print("They are wondering what side you would like with your crab linguini alfredo")
+							sixth = raw_input("Would you like grilled shrimp(type a) or would you like garden salad(type b)")
+				elif fourth == "b":
+					print("They acknowledge that you want shrimp.")
+					print("They are wondering the spice level you would like.")
+					eighth = raw_input("Would you like mild spice(type a) or would you like it very spicy(type b)")
+					if eighth == "a":
+						print("Your shrimp comes along with the bill.")
+						seventh = raw_input("Would you like to tip them good(type a) or tip them bad(type b)")
+					elif eighth == "b":
+						print("Your shrimp comes along with the bill.")
+						seventh = raw_input("Would you like to tip them good(type a) or tip them bad(type b)")
+			elif third == "b":
+				print("Your Coke has been served.")
+				print("They would now like to know what you want for you main course.")
+				fourth = raw_input("Would you like crab(type a) or would you like shrimp(type b)")
+				fifth = raw_input("Would you like snow crab legs(type a) or would you like crab linguini alfredo(type b)")
+				if fifth == "a":
+					print("They are wondering what side you would like with your snow crab legs")
+					sixth = raw_input("Would you like grilled shrimp(type a) or would you like garden salad(type b)")
+					if sixth == "a":
+						print("Your crab comes along with the bill.")
+						seventh = raw_input("Would you like to tip them good(type a) or tip them bad(type b)")
+						if seventh == "a":
+							print("They are very greatful for your generosity.")
+							print("Ending 1")
+							break
+						elif seventh == "b":
+							print("They are not happy with your tip. They follow you to your car and stone you with stale biscuits.")
+							print("Ending 2")
+							break
+					elif sixth == "b":
+						print("Your crab comes along with the bill.")
+						seventh == raw_input("Would you like to tip them good(type a) or tip them bad(type b)")
+						if seventh == "a":
+							print("They are very greatful for your generosity.")
+							print("Ending 3")
+							break
+				if fourth == "a":
+					print("They acknowledge that you want crab.")
+					print("They are wondering what type of crab you would.")
+					fifth = raw_input("Would you like snow crab legs(type a) or would you like crab linguini alfredo(type b)")
+					if fifth == "a":
+						print("They are wondering what side you would like with your snow crab legs")
+						sixth = raw_input("Would you like grilled shrimp(type a) or would you like garden salad(type b)")
+						if sixth == "a":
+							print("Your crab comes along with the bill.")
+							seventh = raw_input("Would you like to tip them good(type a) or tip them bad(type b)")
+							if seventh == "a":
+								print("They are very greatful for your generosity.")
+								print("Ending 1")
+								break
+							elif seventh == "b":
+								print("They are not happy with your tip. They follow you to your car and stone you with stale biscuits.")
+								print("Ending 2")
+								break
+						elif sixth == "b":
+							print("Your crab comes along with the bill.")
+							seventh == raw_input("Would you like to tip them good(type a) or tip them bad(type b)")
+							if seventh == "a":
+								print("They are very greatful for your generosity.")
+								print("Ending 3")
+
+				elif fourth == "b":
+					print("They acknowledge that you want shrimp.")
+					print("They are wondering the spice level you would like.")
+
+					eighth = raw_input("Would you like mild spice(type a) or would you like it very spicy(type b)")
+					if eighth == "a":
+						print("Your shrimp comes along with the bill.")
+						seventh = raw_input("Would you like to tip them good(type a) or tip them bad(type b)")
+					elif eighth == "b":
+						print("Your shrimp comes along with the bill.")
+						seventh = raw_input("Would you like to tip them good(type a) or tip them bad(type b)")
+						if seventh == "a":
+							print("They are very greatful for your generosity.")
+							print("Ending 5")
+							break
+						elif seventh == "b":
+							print("They are not happy with your tip. They follow you to your car and stone you with stale biscuits.")
+							print("Ending 6")
+			elif third == "b":
+				print("They would like to know what you want for your beverage.")
+				third = raw_input("Would you like DrPepper(type a) or coke(type b)")
+		elif second == "b":
+			print("They would like to know what you want for your beverage.")
+			third = raw_input("Would you like DrPepper(type a) or coke(type b)")
+			if third == "a":
+				print("Your DrPepper has been served.")
+				print("They would now like to know what you want for you main course.")
+				fourth = raw_input("Would you like crab(type a) or would you like shrimp(type b)")
+				if fourth == "a":
+					print("They acknowledge that you want crab.")
+					print("They are wondering what type of crab you would.")
+					fifth = raw_input("Would you like snow crab legs(type a) or would you like crab linguini alfredo(type b)")
+					if fifth == "a":
+						print("They are wondering what side you would like with your snow crab legs")
+						sixth = raw_input("Would you like grilled shrimp(type a) or would you like garden salad(type b)")
+						if sixth == "a":
+							print("Your crab comes along with the bill.")
+							seventh = raw_input("Would you like to tip them good(type a) or tip them bad(type b)")
+							if seventh == "a":
+								print("They are very greatful for your generosity.")
+								print("Ending 1")
+								break
+							elif seventh == "b":
+								print("They are not happy with your tip. They follow you to your car and stone you with stale biscuits.")
+								print("Ending 2")
+								break
+						elif sixth == "b":
+							print("Your crab comes along with the bill.")
+							seventh == raw_input("Would you like to tip them good(type a) or tip them bad(type b)")
+							if seventh == "a":
+								print("They are very greatful for your generosity.")
+								print("Ending 3")
+								break
+							elif seventh == "b":
+								print("They are not happy with your tip. They follow you to your car and stone you with stale biscuits.")
+								print("Ending 4")
+								break
+						elif fifth == "b":
+							print("They are wondering what side you would like with your crab linguini alfredo")
+							sixth = raw_input("Would you like grilled shrimp(type a) or would you like garden salad(type b)")
+				elif fourth == "b":
+					print("They acknowledge that you want shrimp.")
+					print("They are wondering the spice level you would like.")
+					eighth = raw_input("Would you like mild spice(type a) or would you like it very spicy(type b)")
+					if eighth == "a":
+						print("Your shrimp comes along with the bill.")
+						seventh = raw_input("Would you like to tip them good(type a) or tip them bad(type b)")
+					elif eighth == "b":
+						print("Your shrimp comes along with the bill.")
+						seventh = raw_input("Would you like to tip them good(type a) or bad(type b)")
